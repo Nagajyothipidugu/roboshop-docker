@@ -22,7 +22,7 @@ services:
     - redis
     - mongodb     
   cart:
-    image: jyothinag/cart:v1 
+    image: jyothinaga/cart:v1 
     container_name: cart 
     depends_on :
      - catalogue
