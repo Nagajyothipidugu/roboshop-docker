@@ -29,10 +29,10 @@ services:
      -redis 
   mysql: 
    image: jyothinaga/mysql:v1 
-   container:name: mysql 
+   container_name: mysql 
   shipping: 
     image: jyothinaga/shipping:v1 
-    container: shipping 
+    container_name: shipping 
     depends_on :
       -mysql 
       -cart      
